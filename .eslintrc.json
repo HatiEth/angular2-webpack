@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+						"tab"
+        ],
+        "no-console": [
+          2,
+          {
+            "allow": [
+              "warn",
+              "error"
+            ]
+          }
+        ],
+        "no-unused-vars": 1,
+        "no-undef": 1,
+        "comma-dangle": 1,
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

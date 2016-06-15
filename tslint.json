@@ -1,0 +1,51 @@
+{
+	"rules": {
+		"class-name": true,
+		"curly": true,
+		"indent": [
+			"tabs",
+			true
+		],
+		"quotemark": [
+			"single",
+			"avoid-escape",
+			true
+		],
+		"triple-equals": [
+			"allow-null-check",
+			true
+		],
+		"semicolon": [
+			true
+		],
+		"comment-format": [
+			"check-space",
+			true
+		],
+		"eofline": true,
+		"no-construct": true,
+		"no-empty": true,
+		"no-console": [
+			"log",
+			true
+		],
+		"label-undefined": true,
+		"no-unused-expression": true,
+		"no-unused-variable": [
+			true
+		],
+		"variable-name": [
+			"ban-keywords",
+			"allow-leading-underscore",
+			"check-format",
+			true
+		],
+		"interface-name": [
+			true
+		],
+		"no-trailing-whitespace": true,
+		"no-duplicate-key": true,
+		"no-bitwise": true,
+		"no-duplicate-variable": true
+	}
+}

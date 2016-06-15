@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "experimentalDecorators": true,
+      "diagnostics": true,
+			"allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "public/jspm_packages",
+    "public/bower_components"
+  ]
+}
